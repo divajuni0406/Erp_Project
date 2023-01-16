@@ -2,7 +2,7 @@ import { IoIosArrowBack } from "react-icons/io";
 import { navClick } from "../../redux/actions/modal";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useRef } from "react";
-import LinkBtn from "../otherComponents/LinkBtn";
+import LinkBtn from "./LinkBtn";
 
 const SideBar = () => {
   const navWrapper = useRef(null);
@@ -24,7 +24,7 @@ const SideBar = () => {
   outsideClick(navWrapper);
   return (
     <div
-      className={`fixed left-0 transition-all duration-500 w-[15%] ${
+      className={`fixed z-10 left-0 transition-all duration-500 w-[15%] ${
         isNavClick ? "left-0" : "left-[-200px]"
       } top-0 bg-[#ffff] rounded-lg shadow-[0px_4px_10px_rgba(0,0,0,0.1)] h-screen flex flex-col text-center`}
       ref={navWrapper}

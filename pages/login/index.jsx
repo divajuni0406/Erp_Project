@@ -1,7 +1,7 @@
 import FormLogin from "../../components/login/FormLogin";
 import BlipImg from "../../components/login/BlipImg";
 
-const index = () => {
+const Index = () => {
   return (
     <div className="h-screen bg-[#F8F9F9]">
       <div className="flex h-screen items-center justify-center">
@@ -12,4 +12,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

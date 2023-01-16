@@ -1,0 +1,31 @@
+          {/* <div className="flex w-[50%]">
+            <Button className="bg-[#F3F6F9] pl-2 pr-5 rounded-tl-md rounded-bl-md">
+              <FiSearch className="text-[#B5B5C3]" />
+            </Button>
+            <input
+              placeholder="Cari"
+              type="text"
+              className="w-full py-[3px] rounded-tr-md rounded-br-md bg-[#F3F6F9] outline-none placeholder:text-['Roboto'] placeholder:text-base font-normal"
+            />
+          </div>
+          <Button className="py-[4px] font-['Roboto'] font-normal text-[14px] text-[#FFFFFF] mt-[5px] ml-3 px-[25px] rounded-md bg-[#009EF7] text-center">
+            Button
+          </Button> */}
+
+TEXT FIELD MUI
+                      sx={{
+              backgroundColor: "#F3F6F9",
+              width: "100%",
+              "& .MuiInputBase-root": {
+                height: "30px",
+              },
+              "& .MuiInputBase-root input": {
+                "::placeholder": {
+                  fontSize: "12px",
+                },
+              },
+            }}
+            placeholder="CID"
+            variant="outlined"
+            className="mb-3"
+          />
